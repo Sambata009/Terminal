@@ -207,7 +207,7 @@ def handle_bgmi(message):
 def start_attack_reply(message, target, port, time):
     user_info = message.from_user
     username = user_info.username if user_info.username else user_info.first_name
-    response = f"{username}, 🔥𝐂𝐇𝐔𝐃𝐀𝐈 𝐒𝐓𝐀𝐑𝐓𝐄𝐃.🔥\n\n🎯𝐓𝐀𝐑𝐆𝐄𝐓: {target}\n🚪𝐏𝐎𝐑𝐓: {port}\n⏳𝐓𝐢𝐌𝐄: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐄𝐓𝐇𝐎𝐃: 𝐆𝐔𝐋𝐀𝐁𝐈𝐄 𝐏𝐔𝐒𝐒𝐘🥵"
+    response = f"{username}, 🔥𝐂𝐇𝐔𝐃𝐀𝐈 𝐒𝐓𝐀𝐑𝐓𝐄𝐃.🔥\n\n🎯𝐓𝐀𝐑𝐆𝐄𝐓: {target}\n🚪𝐏𝐎𝐑𝐓: {port}\n⏳𝐓𝐢𝐌𝐄: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐄𝐓𝐇𝐎𝐃: @sumit_dhole_07🥵"
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['clearlogs'])
@@ -295,7 +295,7 @@ def show_help(message):
 💥 /allusers: 𝐋𝐢𝐒𝐓 𝐎𝐅 𝐂𝐇𝐔𝐓𝐘𝐀 𝐔𝐒𝐄𝐑𝐒.
 💥 /logs: 𝐀𝐀𝐏𝐊𝐄 𝐊𝐀𝐑𝐓𝐎𝐎𝐓𝐄 𝐉𝐀𝐍𝐍𝐄 𝐖𝐀𝐋𝐀 𝐂𝐎𝐌𝐌𝐀𝐍𝐃.
 💥 /clearlogs: 𝐅𝐔𝐂𝐊 𝐓𝐇𝐄 𝐋𝐎𝐆 𝐅𝐈𝐋𝐄.
-💥 /broadcast <message>: 𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓 𝐊𝐀 𝐌𝐀𝐓𝐋𝐀𝐁 𝐓𝐎 𝐏𝐀𝐓𝐀 𝐇𝐎𝐆𝐀 𝐀𝐍𝐏𝐀𝐃.
+💥 @sumit_dhole_07 🔥 SE BAT KARLE 1BAR 👑.
 '''
     bot.reply_to(message, help_text)
 
